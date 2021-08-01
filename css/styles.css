@@ -371,11 +371,24 @@ img {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
+
 /*footer*/
-.footer {
+
+.footer {  
   background-color: var(--background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footter {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sociai-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .adress-margin {
@@ -397,6 +410,7 @@ img {
   line-height: 1.71;
   color: var(--primary-color);
 }
+
 .subtitle-footer {
   font-weight: 700;
   font-size: 14px;
@@ -404,6 +418,7 @@ img {
   color: var(--primary-color);
   text-transform: uppercase;
 }
+
 .social-link-footer {
   padding: 0;
   border: none;
@@ -413,16 +428,37 @@ img {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
 }
-.social-icon {
+
+.social-footer-icon {
   fill: var(--primary-color);
+}
+
+.social-footer {
+  margin-left: 70px;
 }
 
 .social-item:not(:first-child) {
   margin-left: 10px;
 }
-.social-icon:hover,
-.social-icon:focus {
-  fill: var(--accent-color);
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: var(--accent-color);
+}
+.social-footer-list {
+display: flex; 
+margin-top: 20px; 
+}
+/* .social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none; */
+
+  /* margin-top: 16px;
+  margin-bottom: 30px; */
 }
 
 /*portfolio*/
