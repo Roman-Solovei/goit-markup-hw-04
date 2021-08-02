@@ -249,11 +249,6 @@ img {
   margin-bottom: 30px;
 }
 
-/* .advantage-icon {
-  align-items: center;
-  justify-content: center;
-} */
-
 .work-section {
   padding-top: 0;
 }
@@ -460,11 +455,6 @@ img {
   margin-left: 8px;
 }
 
-/* .portfolio-btn:hover {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-} */
-
 .portfolio-btn {
   font-family: Roboto, sans-serif;
   background-color: var(--secondary-color);
@@ -475,8 +465,6 @@ img {
   cursor: pointer;
   border: 0;
   border-radius: 4px;
-  /* margin: 0;
-  padding: 0; */
   padding: 6px 22px;
 }
 
