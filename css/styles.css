@@ -527,6 +527,6 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.gallery-item-title {
+.gallery-link {
   color: var(--title-text-color);
 }
